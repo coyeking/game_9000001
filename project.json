@@ -1,0 +1,9 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.9",
+  "name": "game_9000001",
+  "id": "b8476d7c-d3da-4cf2-a14a-797dc0ab65a4",
+  "isNew": false,
+  "description": "模板项目"
+}
