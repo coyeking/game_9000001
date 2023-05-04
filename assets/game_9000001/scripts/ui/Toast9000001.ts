@@ -1,7 +1,7 @@
 /*
- * Describe: 游戏配置文件
- * File: GameConfig.ts
- * Created Date: Wednesday, May 3rd 2023, 10:25:10 pm
+ * Describe: 公共Toast
+ * File: Toast9000001.ts
+ * Created Date: Thursday, May 4th 2023, 8:44:28 pm
  * Author: coyeking (coyeking385@gmail.com)
  * -----
  * QQ: 2903475819
@@ -11,8 +11,8 @@
  * ----------	---	---------------------------------------------------------
  */
 
-
-export class GameConfig{
-    /**分享标题 */
-    public static shareTitle: string = '我发现了一款有趣的游戏，大家也来挑战吧！';
-}
+const {ccclass, property} = cc._decorator;
+ 
+@ccclass
+export default class Toast9000001 extends base.ToastModel {}
+ 
