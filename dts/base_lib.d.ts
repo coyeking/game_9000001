@@ -143,7 +143,7 @@ declare namespace base {
          * @param event
          * @param customEventData
          */
-        protected onClickEffect(event: cc.Event, customEventData?: string): void;
+        protected onClickEffect(): void;
     }
         export class PopupModel extends BaseView {
         protected ui_mask: cc.Node;
